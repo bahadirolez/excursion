@@ -1,13 +1,13 @@
 html {
   background-color: black;
+  font-family: Verdana, sans-serif;
+  text-align: center;
 }
 
 h1 {
-  font-family: Verdana;
   font-weight: normal;
   font-size: 50px;
   color: white;
-  text-align: center;
 }
 
 a.download {
@@ -15,10 +15,23 @@ a.download {
   font-size: 16px;
 }
 
-p {
-  text-align: center;
+video {
+  display: block;
+  margin: 0 auto;
 }
 
-video {
-align-content: center;
+h2 {
+  font-size: 42px;
+  color: white;
+  font-weight: 300;
+}
+
+p {
+  color: gray;
+  font-size: 21px;
+}
+
+p.copyright {
+  text-align: right;
+  color: gray;
 }
